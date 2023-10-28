@@ -1,4 +1,42 @@
-
-.col{
-    background-color: black;
+#body{
+    background-color: #F6EEE9;
 }
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.cow{
+    background-size: 100% 100%;
+}
+
+.foto{
+    max-height: 135px;
+    z-index: 200;
+}
+
+.rounded-circle{
+border-radius: 50% !important;
+}
+
+.img-thumbnail{
+    padding: 1px;
+    background-color: black;
+    border: 1px black;
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    vertical-align: middle;
+}
+
+*{
+    box-sizing: border-box;
+}
+
