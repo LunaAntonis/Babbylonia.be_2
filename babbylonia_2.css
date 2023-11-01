@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #F6EEE9;
     height: 100vh;
@@ -10,3 +12,54 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+
+  .navbar, .nav-link,  .nav-link:hover, .nav-link:focus, .nav-item{
+    background-color: #EADBDD;
+
+  }
+
+  .nav-link{
+    color: #A07855FF;
+  }
+
+  .nav-pills, .active{
+    background-color: #efbbcc !important;
+  }
+  
+  .py-5{
+    background-color: #EADBDD ;
+  }
+
+  .img-thumbnail{
+      width: 164px;
+      height: 164px;
+      overflow: hidden;
+      margin: auto;
+      z-index: 20;
+    }
+    .rounded-circle{
+      border-style: solid;
+      border:  #A07855FF!important;
+    }
+
+    .fw-light{
+      font-family: "Agbalumo";
+      color: #A07855FF;
+    }
+
+    .lead, .bottom{
+      font-family: "Agbalumo";
+      color: #A07855FF;
+    }
+   
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      color: #e391ad;
+    }
+  
