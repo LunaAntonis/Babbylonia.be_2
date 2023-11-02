@@ -1,0 +1,16 @@
+.navbar, .nav-link,  .nav-link:hover, .nav-link:focus, .nav-item{
+  background-color: #EADBDD;
+
+}
+
+.nav-link{
+  color: #A07855FF;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-item{
+  color: #d28b4c;
+}
+
+.nav-pills, .active{
+  background-color: #efbbcc !important;
+}

@@ -1,7 +1,6 @@
 
-
-body {
-    background-color: #F6EEE9;
+.body {
+    background-color: #f1eced;
     height: 100vh;
 }
 .masthead {
@@ -16,6 +15,7 @@ body {
 
   .navbar, .nav-link,  .nav-link:hover, .nav-link:focus, .nav-item{
     background-color: #EADBDD;
+    font-family: "Agbalumo";
 
   }
 
@@ -23,8 +23,16 @@ body {
     color: #A07855FF;
   }
 
+  .nav-link:hover, .nav-link:focus, .nav-item{
+    color: #d28b4c;
+  }
+
   .nav-pills, .active{
     background-color: #efbbcc !important;
+  }
+  .container{
+    font-family: "Agbalumo";
+    color: #A07855FF;
   }
   
   .py-5{
@@ -62,4 +70,193 @@ body {
       border-radius: 50%;
       color: #e391ad;
     }
-  
+
+    .masthead{
+      height: 30px;
+    }
+.rounded{
+  padding-top: 30px;
+  max-width: 10%;
+  max-height: auto;
+}
+
+
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #f6bcc4;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #f6bcc4;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6bcc4
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #f6bcc4;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+.h6{
+  font-family: "Agbalumo";
+  color: #A07855FF;
+}
+.row{
+  font-family: "Agbalumo";
+  color: #A07855FF;
+}
+
+.text-muted{
+  font-family: "Agbalumo";
+  color: #A07855FF;
+}
+
+.title{
+  color: #A07855FF ;
+  font-family: "Agbalumo";
+
+}
+
+#carouselExampleCaptions
+{
+  size: 30%;
+}
+
+.stretch-card>.card {
+  width: 100%;
+  min-width: 100%
+}
+
+body {
+  background-color: #f9f9fa
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+  .padding {
+      padding: 1.5rem
+  }
+}
+
+@media (max-width:767.98px) {
+  .padding {
+      padding: 1rem
+  }
+}
+
+.padding {
+  padding: 3rem
+}
+
+
+body {
+	background: #2E86DE;
+}
+
+.col-carousel {
+	margin: 70px 0;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: #FFF;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
+
+.container{
+  background-color: #EADBDD;
+}
+body{
+  background-color: #EADBDD;
+}
+
+.submit, .submit-link,  .submit-link:hover, .submit-link:focus, .submit-item{
+  color: #A07855FF;
+  background-color: #e391ad !important;}
+
+  #owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.carousel-inner img {
+width: 100%;
+height: 100%;
+}
+
